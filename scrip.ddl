@@ -31,6 +31,7 @@ CREATE TABLE product (
     productname    VARCHAR2(40) NOT NULL,
     decription     VARCHAR2(200),
     brand_brandid  NUMBER NOT NULL
+    price     NUMBER(7,2) NOT NULL
 );
 
 ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productno );
