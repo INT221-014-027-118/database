@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="998EC175-7EAA-C7DB-3A18-7C49A3C2C8A1" name="Color">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>4BA4A338-BFDC-2F0D-F1FE-598D8B46004F</importedID>
+<engineerTo>
+<item key="D5BF25F4-DC64-27E4-DAAD-1E072219CE33" value="true"/>
+<item key="8F900D23-3BDE-5F28-5852-201EBED39E7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ColorId" id="EA8958C5-CAAB-0C33-1D43-348CD57E03EA">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>437CA83D-9691-0420-0DF6-9554B573CF30</importedID>
+<engineerTo>
+<item key="D5BF25F4-DC64-27E4-DAAD-1E072219CE33" value="true"/>
+<item key="8F900D23-3BDE-5F28-5852-201EBED39E7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="colorName" id="D1E3D11D-9A49-BDAB-1901-A8440F2ED2C9">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>56F6F7A4-7AED-7647-ED6A-11F036EC8DAB</importedID>
+<engineerTo>
+<item key="D5BF25F4-DC64-27E4-DAAD-1E072219CE33" value="true"/>
+<item key="8F900D23-3BDE-5F28-5852-201EBED39E7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hexColor" id="9EF5D608-4DA4-2652-112C-79B5D65B3850">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>5FB34A19-E70B-E66D-3340-B03E1C629660</importedID>
+<engineerTo>
+<item key="D5BF25F4-DC64-27E4-DAAD-1E072219CE33" value="true"/>
+<item key="8F900D23-3BDE-5F28-5852-201EBED39E7F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7828E212-2270-F84D-223A-F9C61F3B1F29" name="Color PK">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<ownerDesignName>221กิ</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4304D642-2973-1561-23D8-9C673DA2AA7E</importedID>
+<engineerTo>
+<item key="D5BF25F4-DC64-27E4-DAAD-1E072219CE33" value="true"/>
+<item key="8F900D23-3BDE-5F28-5852-201EBED39E7F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA8958C5-CAAB-0C33-1D43-348CD57E03EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

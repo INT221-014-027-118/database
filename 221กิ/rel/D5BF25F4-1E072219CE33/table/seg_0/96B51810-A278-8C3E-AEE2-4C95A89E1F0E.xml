@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96B51810-A278-8C3E-AEE2-4C95A89E1F0E" name="Color">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<generatorID>998EC175-7EAA-C7DB-3A18-7C49A3C2C8A1</generatorID>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>5FC7E426-178A-E80F-A96F-DDAECC2EB9A4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ColorId" id="FA028FAA-2395-2956-6EE1-326EF1C47535">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<generatorID>EA8958C5-CAAB-0C33-1D43-348CD57E03EA</generatorID>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>A45CA7A1-CAF4-2CED-6F8E-0A953BCF48A9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="colorName" id="9094D63A-EE0E-A849-D878-74BDC351A108">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<generatorID>D1E3D11D-9A49-BDAB-1901-A8440F2ED2C9</generatorID>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>B96DB267-0D4D-D89C-C10A-D8761D229E29</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hexColor" id="58D8BEA4-E04B-B2C6-7DE3-FB8AA8F2803C">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<generatorID>9EF5D608-4DA4-2652-112C-79B5D65B3850</generatorID>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>965B12B0-E393-616F-D146-4ECAB65F231A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37DAF1FA-D2CC-528A-97D2-999D49A5EC63" name="Color_PK">
+<createdBy>user</createdBy>
+<createdTime>2564-04-22 09:32:48 UTC</createdTime>
+<generatorID>7828E212-2270-F84D-223A-F9C61F3B1F29</generatorID>
+<ownerDesignName>221กิ</ownerDesignName>
+<importedID>BE02420B-7141-B041-BBCB-7822A4026711</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA028FAA-2395-2956-6EE1-326EF1C47535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
