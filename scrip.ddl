@@ -36,24 +36,24 @@ CREATE TABLE product (
 
 ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productno );
 
-CREATE TABLE relation_2 (
+CREATE TABLE productcolor (
     product_productno  NUMBER NOT NULL,
     color_colorid      NUMBER NOT NULL
 );
 
-ALTER TABLE relation_2 ADD CONSTRAINT relation_2_pk PRIMARY KEY ( product_productno,
+ALTER TABLE productcolor ADD CONSTRAINT productcolor_pk PRIMARY KEY ( product_productno,
                                                                   color_colorid );
 
 ALTER TABLE product
     ADD CONSTRAINT product_brand_fk FOREIGN KEY ( brand_brandid )
         REFERENCES brand ( brandid );
 
-ALTER TABLE relation_2
-    ADD CONSTRAINT relation_2_color_fk FOREIGN KEY ( color_colorid )
+ALTER TABLE productcolor
+    ADD CONSTRAINT productcolor_color_fk FOREIGN KEY ( color_colorid )
         REFERENCES color ( colorid );
 
-ALTER TABLE relation_2
-    ADD CONSTRAINT relation_2_product_fk FOREIGN KEY ( product_productno )
+ALTER TABLE productcolor
+    ADD CONSTRAINT productcolor_product_fk FOREIGN KEY ( product_productno )
         REFERENCES product ( productno );
 
 
