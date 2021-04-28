@@ -5,4 +5,4 @@
 
 **Logical Design**
 
-![LogicalDesign](https://github.com/INT221-014-027-118/database/blob/master/LogicalDesign.png?raw=true)
+![LogicalDesign](https://github.com/INT221-014-027-118/database/blob/master/LogicalDesign.PNG?raw=true)
