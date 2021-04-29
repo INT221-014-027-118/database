@@ -57,3 +57,45 @@ ALTER TABLE productcolor
 ALTER TABLE productcolor
     ADD CONSTRAINT relation_3_product_fk FOREIGN KEY ( productid )
         REFERENCES product ( productid );
+
+
+INSERT INTO `brand` (`brandid`, `brandname`) VALUES
+(1001, 'Asus'),
+(1002, 'Acer'),
+(1003, 'Sony'),
+(1004, 'Logitech'),
+(1005, 'HyperX'),
+(1006, 'Microsoft'),
+(1007, 'Signo'),
+(1008, 'HP'),
+(1009, 'Xiaomi'),
+(1010, 'Razer'),
+(1011, 'Ducky'),
+(1012, 'Signo');
+
+INSERT INTO `type` (`typeid`, `typename`) VALUES
+(301, 'headset'),
+(302, 'keyboard'),
+(303, 'mouse');
+
+INSERT INTO `color` (`colorid`, `colorname`, `hexcolor`) VALUES
+(901, 'Black', '#000000'),
+(902, 'Ivory', '#fffff0'),
+(903, 'Gray79', '#c9c9c9'),
+(904, 'Pink', '#ffa5b5'),
+(905, 'Light blue', '#57bfff'),
+(906, 'Blue', '#365aad'),
+(907, 'Green', '#008972'),
+(908, 'Purple', '#6857ab');
+
+
+INSERT INTO `product` (`productid`, `productname`, `price`, `description`, `brandid`, `typeid`, `warranty`, `launchdate`, `imageUrl`) VALUES
+(1, 'H100', '280.00', 'H100 ได้รับการออกแบบให้มีความแข็งแรงและทนทานซึ่งเหมาะสำหรับอายุการใช้งานที่ยาวนาน\nฟองน้ำรองหูฟังที่สวมใส่สบายและระบายอากาศได้ดีเหมาะสำหรับการเล่นเกมเป็นเวลานาน\nพูดด้วยความมั่นใจว่าไมโครโฟนจะถ่ายทอดเสียงของคุณด้วยความดังและความชัดเจนที่เหมาะสม\nด้วยตัวขับเสียงขนาด 50 มม. H100 มอบประสิทธิภาพที่แข็งแกร่งในการสร้างเสียงความถี่ต่ำและสูง\nสายสัญญาณเสียงหลักได้รับการเสริมสมรรถภาพเพื่อให้ได้คุณภาพที่ยาวนาน', 1008, 301, 1, '2017-03-15', 'hp_h100.jpg'),
+(2, 'H500', '749.00', 'ลำโพงขนาด 50มม.ความต้านทานลำโพง 22โอมห์\nUSB LED Backlight. Volume Control\nไมค์โครโฟนตัดสัญญาณเสียงรบกวน\nAudio Jack 3.5มม.\nสายยาว 2.15 เมตร', 1008, 301, 1, '2017-03-15', 'hp_h500.jpg');
+
+
+INSERT INTO `productcolor` (`productid`, `colorid`) VALUES
+(1, 901),
+(2, 901),
+(2, 902),
+(2, 903);
